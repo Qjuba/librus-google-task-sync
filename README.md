@@ -1,7 +1,7 @@
 # 🚀 Synchronizacja Librus z Google Tasks i Discord
 
-Projekt umożliwia automatyczną synchronizację zadań z Librusa do Google Tasks oraz wysyłanie powiadomień na Discord w formie embedów.  
-Dodatkowo, po każdej udanej synchronizacji, na Discordzie pojawia się raport, a w przypadku błędu — szczegóły problemu.
+Projekt umożliwia automatyczną synchronizację zadań z Librusa do Google Tasks.
+Dodatkowo, po każdej udanej synchronizacji, jest wysyłany na Discorda raport, a w przypadku błędu — szczegóły problemu.
 
 ---
 
