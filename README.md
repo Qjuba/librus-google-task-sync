@@ -27,8 +27,7 @@ Dodatkowo, po każdej udanej synchronizacji, na Discordzie pojawia się raport, 
 
 ## 🔧 Konfiguracja
 
-### 1. Plik `.env`
-Utwórz plik `.env` w głównym katalogu projektu i dodaj do niego następujące zmienne:
+### 1. Utwórz plik `.env`
 
 ```plaintext
 LIBRUS_LOGIN=twój_login_librus
@@ -39,44 +38,26 @@ DISCORD_WEBHOOK_URL=twój_url_webhooka_discord
 ```
 2. Google API
 
-    Przejdź do Google Cloud Console.
+    - Przejdź do Google Cloud Console.
 
-    Utwórz nowy projekt.
+    - Utwórz nowy projekt.
 
-    Włącz API Google Tasks.
+    - Włącz API Google Tasks.
 
-    Pobierz plik credentials.json i umieść go w lokalizacji wskazanej w GOOGLE_CREDENTIALS_PATH.
+    - Pobierz plik credentials.json i umieść go w lokalizacji wskazanej w GOOGLE_CREDENTIALS_PATH.
 
 3. Discord Webhook
 
-    Przejdź do ustawień kanału Discord.
+    - Przejdź do ustawień kanału Discord.
 
-    Utwórz nowy webhook i skopiuj jego URL.
+    - Utwórz nowy webhook i skopiuj jego URL.
 
-    Wklej URL do zmiennej DISCORD_WEBHOOK_URL w pliku .env.
+    - Wklej URL do zmiennej DISCORD_WEBHOOK_URL w pliku .env.
 
-🖥 Uruchomienie bez Dockera
-1. Zainstaluj zależności
-bash
-Copy
+🖥 **Uruchomienie bez Dockera**
+  pip install -r requirements.txt
+  python main.py
 
-pip install -r requirements.txt
-
-2. Uruchom skrypt
-bash
-Copy
-
-python main.py
-
-🐳 Uruchomienie z Dockerem
-1. Zbuduj obraz Dockera
-bash
-Copy
-
-docker build -t librus-sync .
-
-2. Uruchom kontener
-bash
-Copy
-
-docker run --env-file .env librus-sync
+🐳 **Uruchomienie z Dockerem**
+  docker build -t librus-sync .
+  docker run --env-file .env librus-sync
