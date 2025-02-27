@@ -55,9 +55,9 @@ DISCORD_WEBHOOK_URL=twój_url_webhooka_discord
     - Wklej URL do zmiennej DISCORD_WEBHOOK_URL w pliku .env.
 
 🖥 **Uruchomienie bez Dockera**
-  pip install -r requirements.txt
-  python main.py
+  - pip install -r requirements.txt
+  - python main.py
 
 🐳 **Uruchomienie z Dockerem**
-  docker build -t librus-sync .
-  docker run --env-file .env librus-sync
+  - docker build -t librus-sync .
+  - docker run --env-file .env librus-sync
