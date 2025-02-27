@@ -6,11 +6,10 @@ Dodatkowo, po każdej udanej synchronizacji, jest wysyłany na Discorda raport, 
 ---
 
 ## 📋 Funkcje
-- **Synchronizacja zadań z Librusa**:
+- **Synchronizacja zadań i integracja z Google Tasks**:
   - Pobieranie zadań domowych.
-  - Pobieranie planu lekcji (sprawdziany, kartkówki).
-- **Integracja z Google Tasks**:
-  - Dodawanie zadań do wybranej listy w Google Tasks.
+  - Pobieranie sprawdzianów, kartkówek.
+  - Dodawanie do wybranej listy w Google Tasks.
 - **Powiadomienia na Discord**:
   - Wiadomości o sukcesie (zielony embed).
   - Wiadomości o błędach (czerwony embed).
