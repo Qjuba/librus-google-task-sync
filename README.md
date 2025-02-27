@@ -1,1 +1,0 @@
-# librus-google-task-sync
