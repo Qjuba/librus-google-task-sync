@@ -36,7 +36,7 @@ GOOGLE_TOKEN_PATH=ścieżka/do/token.json
 GOOGLE_CREDENTIALS_PATH=ścieżka/do/credentials.json
 DISCORD_WEBHOOK_URL=twój_url_webhooka_discord
 ```
-2. Google API
+### 2. Google API
 
     - Przejdź do Google Cloud Console.
 
@@ -46,7 +46,7 @@ DISCORD_WEBHOOK_URL=twój_url_webhooka_discord
 
     - Pobierz plik credentials.json i umieść go w lokalizacji wskazanej w GOOGLE_CREDENTIALS_PATH.
 
-3. Discord Webhook
+### 3. Discord Webhook
 
     - Przejdź do ustawień kanału Discord.
 
